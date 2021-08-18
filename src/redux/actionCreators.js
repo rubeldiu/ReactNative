@@ -62,7 +62,7 @@ export const authUser = (token) => {
 
 export const tryAuth = (email, password, mode) => (dispatch) => {
   let url = "";
-  const API_KEY = "AIzaSyDYWdd-9ZfoblC7LyoHdlzXEE9VmZVFrl4";
+  const API_KEY = "AIzaSyDYWdd-9ZfoblC7LyoHdlzXEE9VmZVFrl";
   if (mode === "signup") {
     url =
       "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=" +
